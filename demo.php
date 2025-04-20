@@ -1,23 +1,30 @@
 <?php
-include 'header.php';
-//include 'slider.php';
+include "header.php";
 ?>
-	
-<section class="products-section">
-	<div class="auto-container">
-	
-   <!-- sec title -->
-	   <div class="sec-title centered">
-		   <h2>Our Products</h2>
-	   </div>
+<!--content area-->
 
-	   </div>
-	   </section>
+        <div class="breadcrumbs">
+            <div class="col-sm-4">
+                <div class="page-header float-left">
+                    <div class="page-title">
+                        <h1>Dashboard</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="page-header float-right">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-right">
+                            <li class="active">Dashboard</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-	
+<!--content area-->
+
+
 <?php
-include 'delivery_section.php';
-include 'service_section.php';
-include 'footer.php';
-?>	
-
+include "footer.php";
+?>
